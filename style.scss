@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
- @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
 
 :root {
   font-family: "Sora", sans-serif;
@@ -11,10 +11,42 @@
 
   color-scheme: light dark;
   color: #242424;
-  background-color: #FFF;
+  background-color: #fff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.bmw-background {
+  background: linear-gradient(
+    180deg,
+    rgba(33, 64, 154, 0) 0%,
+    rgba(14, 102, 177, 0.8) 100%
+  );
+}
+
+.amazon-background {
+  background: linear-gradient(
+    180deg,
+    rgba(253, 126, 20, 0) 0%,
+    rgba(255, 165, 0, 0.8) 100%
+  );
+}
+
+.maersk-background {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 115, 207, 0) 0%,
+    rgba(0, 174, 239, 0.8) 100%
+  );
+}
+
+.twilio-background {
+  background: linear-gradient(
+    180deg,
+    rgba(220, 30, 35, 0) 0%,
+    rgba(255, 45, 85, 0.8) 100%
+  );
 }
